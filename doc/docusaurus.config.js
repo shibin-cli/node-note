@@ -6,11 +6,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  p
+  baseUrl: '/node-note/',
   title: 'NodeJS学习笔记',
   tagline: 'NodeJS学习笔记整理',
   url: 'https://github.com/shibin-cli',
-  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
