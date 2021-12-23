@@ -1,0 +1,25 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "npm run doc:start",
+    "doc:start": "cd doc && npm start",
+    "doc:build": "cd doc && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibin-cli/node-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shibin-cli/node-note/issues"
+  },
+  "homepage": "https://github.com/shibin-cli/node-note#readme"
+}
