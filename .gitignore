@@ -2,7 +2,7 @@
 /node_modules
 
 # Production
-/build
+/doc/build
 
 # Generated files
 .docusaurus
@@ -20,3 +20,4 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 node_modules
+build
