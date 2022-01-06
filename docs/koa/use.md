@@ -44,7 +44,7 @@ function logger3() {
         console.log('logger3',ctx.body)
     }
 }
-
+// 先use的中间键会先执行
 app.use(logger1())
 app.use(logger2())
 
