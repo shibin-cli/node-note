@@ -37,7 +37,7 @@ hmr 需要做的事就是
 
 webpack 本身就是一个基于 commonjs 模块管理的构建工具，当然后续其也实现了 ESM 的模块管理功能
 
-假设有两个 js 文件
+假设有 a 和 b 两个 js 文件，而 b 中引入了 a 。
 
 ```js
 // b.js
@@ -52,3 +52,39 @@ module.exports = () => {
   console.log("hello world");
 };
 ```
+
+如果 a.js 发生了修改，需要如何更新呢？ 很简单，只需要这时候去加载新的 a.js 文件，那么 b 模块执行的结果就是最新的
+
+webpack 编译会生成这样的代码
+
+```js
+webpack__modules[0] = { moduleA };
+webpack__modules[1] = { moduleB };
+webpack__modules[2] = { moduleC };
+
+const a = __webpack__require__(0);
+```
+
+如果 a 模块发生了更改
+
+```js
+socket.on("update", (path) => {
+  loadScript(path).then((newModule) => {
+    webpack__modules[0] = newModule;
+  });
+});
+```
+
+这样就更新了 webpack 缓存中的 A 模块
+
+那么 b 模块中可以这样
+
+```js
+if (module.hot) {
+  module.accept("./a", (newA) => {
+    newA();
+  });
+}
+```
+
+这个代码就在 webpack 中注册了一个对于 a 模块的热更新事件监听，当 webpack 接收到了更新事件，就会通知这个回调，并且把新的模块传入，我们就可以根据需要进行更新。
