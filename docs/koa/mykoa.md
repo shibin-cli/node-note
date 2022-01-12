@@ -200,3 +200,248 @@ middleware1 end
 ```
 
 ## 完善
+
+### 完善请求处理
+
+```js
+class Koa extends Emitter {
+  constructor() {
+    super()
+    this.middlewares = []
+  }
+  callback() {
+    const fn = compose(this.middlewares)
+    const handleRequest = (req, res) => {
+      const ctx = creatContext(req, res)
+      this.handleRequest(ctx, fn)
+    }
+    return handleRequest
+  }
+  use(middleware) {
+    this.middlewares.push(middleware)
+  }
+  handleRequest(ctx, fnMiddleware) {
+    fnMiddleware(ctx).then(() => {
+      if (!ctx.body) {
+        ctx.throw(404, 'Not Found')
+      }
+      ctx.res.end(ctx.body)
+    })
+  }
+  listen() {
+    const server = http.createServer(this.callback())
+    server.listen(...arguments)
+  }
+}
+
+function creatContext(req, res) {
+  const ctx = Object.create(context)
+  ctx.req = req
+  ctx.res = res
+  return ctx
+}
+```
+
+### 重定向
+
+```js
+const context = {
+  ...
+  redirect(url) {
+    this.res.statusCode = 302
+    this.set('Location', url)
+    this.body = `Redirecting to ${url}.`
+  }
+  ...
+}
+```
+
+### 完善 url 解析和 query 参数处理
+
+```js
+const { URL } = require('url')
+
+function parseQuery(str) {
+  const res = Object.create(null)
+
+  str
+    .substr(1)
+    .split('&')
+    .forEach((item) => {
+      if (item) {
+        const i = item.search('=')
+        const key = item.substr(0, i)
+        const val = item.substr(i + 1)
+        res[key] = res[key]
+          ? Array.isArray(res[key])
+            ? [...res[key], val]
+            : [res[key], val]
+          : val
+      }
+    })
+  return res
+}
+const context = {
+  get path() {
+    return new URL(this.req.url, 'http://localhost').pathname
+  },
+  // 将?a=1&b=2 解析为 {a: "1", b: "2"}
+  get query() {
+    return parseQuery(new URL(this.req.url, 'http://localhost').search)
+  }
+}
+```
+
+### 其他
+
+```js
+const context = {
+  ...
+   get url() {
+    return this.req.url
+  },
+  set(filed, val) {
+    this.res.setHeader(filed, val)
+  },
+  throw(code, text) {
+    this.res.statusCode = code
+    this.res.end(text || 'Error')
+  },
+  get path() {
+    return this.req.url
+  }
+  ...
+}
+```
+
+### 完整代码
+
+```js
+// koa.js
+const Emitter = require('events')
+const http = require('http')
+const creatContext = require('./lib/context')
+const compose = require('./lib/compose')
+
+class Koa extends Emitter {
+  constructor() {
+    super()
+    this.middlewares = []
+  }
+  callback() {
+    const fn = compose(this.middlewares)
+    const handleRequest = (req, res) => {
+      const ctx = creatContext(req, res)
+      this.handleRequest(ctx, fn)
+    }
+    return handleRequest
+  }
+  use(middleware) {
+    // console.log(middleware)
+    this.middlewares.push(middleware)
+  }
+  handleRequest(ctx, fnMiddleware) {
+    fnMiddleware(ctx).then(() => {
+      if (!ctx.body) {
+        ctx.throw(404, 'Not Found')
+      }
+      ctx.res.end(ctx.body)
+    })
+  }
+  listen() {
+    const server = http.createServer(this.callback())
+    server.listen(...arguments)
+  }
+}
+module.exports = Koa
+```
+
+上下文 context
+
+```js
+// context.js
+const { URL } = require('url')
+
+function parseQuery(str) {
+  const res = Object.create(null)
+
+  str
+    .substr(1)
+    .split('&')
+    .forEach((item) => {
+      if (item) {
+        const i = item.search('=')
+        const key = item.substr(0, i)
+        const val = item.substr(i + 1)
+        res[key] = res[key]
+          ? Array.isArray(res[key])
+            ? [...res[key], val]
+            : [res[key], val]
+          : val
+      }
+    })
+  return res
+}
+const context = {
+  _body: null,
+  req: null,
+  res: null,
+  get body() {
+    return this._body
+  },
+  set body(val) {
+    if (typeof val !== 'string') {
+      val = JSON.stringify(val)
+    }
+    this._body = val
+    // this.res.end(this._body)
+  },
+  get method() {
+    return this.req.method
+  },
+  set(filed, val) {
+    this.res.setHeader(filed, val)
+  },
+  throw(code, text) {
+    this.res.statusCode = code
+    this.res.end(text || 'Error')
+  },
+  redirect(url) {
+    this.res.statusCode = 302
+    this.set('Location', url)
+    this.body = `Redirecting to ${url}.`
+  },
+  get path() {
+    return new URL(this.req.url, 'http://localhost').pathname
+  },
+  get query() {
+    return parseQuery(new URL(this.req.url, 'http://localhost').search)
+  }
+}
+function creatContext(req, res) {
+  const ctx = Object.create(context)
+  ctx.req = req
+  ctx.res = res
+  return ctx
+}
+module.exports = creatContext
+```
+
+compose
+
+```js
+// compose.js
+function compose(middlewares) {
+  console.log(middlewares)
+  return (context, next) => {
+    return dispatch(0)
+    function dispatch(i) {
+      let fn = middlewares[i]
+      if (i === middlewares.length) fn = next
+      if (!fn) return Promise.resolve()
+      return Promise.resolve(fn(context, dispatch.bind(null, i + 1)))
+    }
+  }
+}
+module.exports = compose
+```
