@@ -1,0 +1,427 @@
+2022-01-13 11:25:34,797 INFO 18160 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:25:34,831 INFO 18160 [egg-multipart] stream mode enable
+2022-01-13 11:25:35,513 INFO 18160 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:25:35,526 INFO 18160 [egg-security] use csrf middleware
+2022-01-13 11:25:35,539 INFO 18160 [egg-security] use methodnoallow middleware
+2022-01-13 11:25:35,548 INFO 18160 [egg-security] use noopen middleware
+2022-01-13 11:25:35,559 INFO 18160 [egg-security] use nosniff middleware
+2022-01-13 11:25:35,569 INFO 18160 [egg-security] use xssProtection middleware
+2022-01-13 11:25:35,579 INFO 18160 [egg-security] use xframe middleware
+2022-01-13 11:25:35,588 INFO 18160 [egg-security] use dta middleware
+2022-01-13 11:25:35,588 INFO 18160 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:25:35,614 INFO 18160 [egg:core] dump config after load, 6ms
+2022-01-13 11:25:35,627 INFO 18160 [egg-watcher:application] watcher start success
+2022-01-13 11:25:35,635 INFO 18160 [egg:core] dump config after ready, 5ms
+2022-01-13 11:25:38,698 ERROR 18160 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\app\extend\context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-session@6.2.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+
+pid: 18160
+hostname: RedmiBook16
+
+2022-01-13 11:26:47,556 INFO 4004 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:26:47,592 INFO 4004 [egg-multipart] stream mode enable
+2022-01-13 11:26:47,740 INFO 4004 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:26:47,746 INFO 4004 [egg-security] use csrf middleware
+2022-01-13 11:26:47,748 INFO 4004 [egg-security] use methodnoallow middleware
+2022-01-13 11:26:47,749 INFO 4004 [egg-security] use noopen middleware
+2022-01-13 11:26:47,751 INFO 4004 [egg-security] use nosniff middleware
+2022-01-13 11:26:47,752 INFO 4004 [egg-security] use xssProtection middleware
+2022-01-13 11:26:47,753 INFO 4004 [egg-security] use xframe middleware
+2022-01-13 11:26:47,753 INFO 4004 [egg-security] use dta middleware
+2022-01-13 11:26:47,753 INFO 4004 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:26:47,762 INFO 4004 [egg:core] dump config after load, 4ms
+2022-01-13 11:26:47,776 INFO 4004 [egg-watcher:application] watcher start success
+2022-01-13 11:26:47,783 INFO 4004 [egg:core] dump config after ready, 5ms
+2022-01-13 11:26:52,958 ERROR 4004 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\app\extend\context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-session@6.2.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+
+pid: 4004
+hostname: RedmiBook16
+
+2022-01-13 11:28:50,136 INFO 19700 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:28:50,174 INFO 19700 [egg-multipart] stream mode enable
+2022-01-13 11:28:50,315 INFO 19700 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:28:50,319 INFO 19700 [egg-security] use csrf middleware
+2022-01-13 11:28:50,321 INFO 19700 [egg-security] use methodnoallow middleware
+2022-01-13 11:28:50,322 INFO 19700 [egg-security] use noopen middleware
+2022-01-13 11:28:50,324 INFO 19700 [egg-security] use nosniff middleware
+2022-01-13 11:28:50,326 INFO 19700 [egg-security] use xssProtection middleware
+2022-01-13 11:28:50,327 INFO 19700 [egg-security] use xframe middleware
+2022-01-13 11:28:50,328 INFO 19700 [egg-security] use dta middleware
+2022-01-13 11:28:50,328 INFO 19700 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:28:50,337 INFO 19700 [egg:core] dump config after load, 5ms
+2022-01-13 11:28:50,351 INFO 19700 [egg-watcher:application] watcher start success
+2022-01-13 11:28:50,360 INFO 19700 [egg:core] dump config after ready, 8ms
+2022-01-13 11:31:42,688 INFO 19516 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:31:42,722 INFO 19516 [egg-multipart] stream mode enable
+2022-01-13 11:31:42,867 INFO 19516 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:31:42,872 INFO 19516 [egg-security] use csrf middleware
+2022-01-13 11:31:42,874 INFO 19516 [egg-security] use methodnoallow middleware
+2022-01-13 11:31:42,874 INFO 19516 [egg-security] use noopen middleware
+2022-01-13 11:31:42,877 INFO 19516 [egg-security] use nosniff middleware
+2022-01-13 11:31:42,878 INFO 19516 [egg-security] use xssProtection middleware
+2022-01-13 11:31:42,880 INFO 19516 [egg-security] use xframe middleware
+2022-01-13 11:31:42,881 INFO 19516 [egg-security] use dta middleware
+2022-01-13 11:31:42,881 INFO 19516 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:31:42,907 INFO 19516 [egg:core] dump config after load, 4ms
+2022-01-13 11:31:42,919 INFO 19516 [egg-watcher:application] watcher start success
+2022-01-13 11:31:42,926 INFO 19516 [egg:core] dump config after ready, 5ms
+2022-01-13 11:32:02,939 INFO 23572 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:32:02,973 INFO 23572 [egg-multipart] stream mode enable
+2022-01-13 11:32:03,115 INFO 23572 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:32:03,118 INFO 23572 [egg-security] use csrf middleware
+2022-01-13 11:32:03,120 INFO 23572 [egg-security] use methodnoallow middleware
+2022-01-13 11:32:03,123 INFO 23572 [egg-security] use noopen middleware
+2022-01-13 11:32:03,125 INFO 23572 [egg-security] use nosniff middleware
+2022-01-13 11:32:03,125 INFO 23572 [egg-security] use xssProtection middleware
+2022-01-13 11:32:03,126 INFO 23572 [egg-security] use xframe middleware
+2022-01-13 11:32:03,127 INFO 23572 [egg-security] use dta middleware
+2022-01-13 11:32:03,127 INFO 23572 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:32:03,136 INFO 23572 [egg:core] dump config after load, 4ms
+2022-01-13 11:32:03,149 INFO 23572 [egg-watcher:application] watcher start success
+2022-01-13 11:32:03,156 INFO 23572 [egg:core] dump config after ready, 5ms
+2022-01-13 11:34:50,045 INFO 7388 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:34:50,083 INFO 7388 [egg-multipart] stream mode enable
+2022-01-13 11:34:50,236 INFO 7388 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:34:50,241 INFO 7388 [egg-security] use csrf middleware
+2022-01-13 11:34:50,243 INFO 7388 [egg-security] use methodnoallow middleware
+2022-01-13 11:34:50,245 INFO 7388 [egg-security] use noopen middleware
+2022-01-13 11:34:50,247 INFO 7388 [egg-security] use nosniff middleware
+2022-01-13 11:34:50,247 INFO 7388 [egg-security] use xssProtection middleware
+2022-01-13 11:34:50,250 INFO 7388 [egg-security] use xframe middleware
+2022-01-13 11:34:50,252 INFO 7388 [egg-security] use dta middleware
+2022-01-13 11:34:50,252 INFO 7388 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:34:50,260 INFO 7388 [egg:core] dump config after load, 4ms
+2022-01-13 11:34:50,272 INFO 7388 [egg-watcher:application] watcher start success
+2022-01-13 11:34:50,278 INFO 7388 [egg:core] dump config after ready, 5ms
+2022-01-13 11:37:13,130 INFO 24412 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:37:13,163 INFO 24412 [egg-multipart] stream mode enable
+2022-01-13 11:37:13,314 INFO 24412 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:37:13,318 INFO 24412 [egg-security] use csrf middleware
+2022-01-13 11:37:13,320 INFO 24412 [egg-security] use methodnoallow middleware
+2022-01-13 11:37:13,320 INFO 24412 [egg-security] use noopen middleware
+2022-01-13 11:37:13,322 INFO 24412 [egg-security] use nosniff middleware
+2022-01-13 11:37:13,323 INFO 24412 [egg-security] use xssProtection middleware
+2022-01-13 11:37:13,324 INFO 24412 [egg-security] use xframe middleware
+2022-01-13 11:37:13,324 INFO 24412 [egg-security] use dta middleware
+2022-01-13 11:37:13,325 INFO 24412 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:37:13,346 INFO 24412 [egg:core] dump config after load, 4ms
+2022-01-13 11:37:13,362 INFO 24412 [egg-watcher:application] watcher start success
+2022-01-13 11:37:13,370 INFO 24412 [egg:core] dump config after ready, 6ms
+2022-01-13 11:37:13,690 INFO 24412 [egg-view-nunjucks] loading templates from ["D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\app\\view"]
+2022-01-13 11:48:05,149 INFO 11684 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 11:48:05,182 INFO 11684 [egg-multipart] stream mode enable
+2022-01-13 11:48:05,327 INFO 11684 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 11:48:05,332 INFO 11684 [egg-security] use csrf middleware
+2022-01-13 11:48:05,334 INFO 11684 [egg-security] use methodnoallow middleware
+2022-01-13 11:48:05,335 INFO 11684 [egg-security] use noopen middleware
+2022-01-13 11:48:05,338 INFO 11684 [egg-security] use nosniff middleware
+2022-01-13 11:48:05,338 INFO 11684 [egg-security] use xssProtection middleware
+2022-01-13 11:48:05,339 INFO 11684 [egg-security] use xframe middleware
+2022-01-13 11:48:05,340 INFO 11684 [egg-security] use dta middleware
+2022-01-13 11:48:05,340 INFO 11684 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 11:48:05,349 INFO 11684 [egg:core] dump config after load, 5ms
+2022-01-13 11:48:05,363 INFO 11684 [egg-watcher:application] watcher start success
+2022-01-13 11:48:05,372 INFO 11684 [egg:core] dump config after ready, 8ms
+2022-01-13 11:48:09,814 INFO 11684 [egg-view-nunjucks] loading templates from ["D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\app\\view"]
+2022-01-13 15:31:50,874 INFO 10720 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 15:31:50,921 INFO 10720 [egg-multipart] stream mode enable
+2022-01-13 15:31:51,159 INFO 10720 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 15:31:51,165 INFO 10720 [egg-security] use csrf middleware
+2022-01-13 15:31:51,168 INFO 10720 [egg-security] use methodnoallow middleware
+2022-01-13 15:31:51,170 INFO 10720 [egg-security] use noopen middleware
+2022-01-13 15:31:51,174 INFO 10720 [egg-security] use nosniff middleware
+2022-01-13 15:31:51,175 INFO 10720 [egg-security] use xssProtection middleware
+2022-01-13 15:31:51,176 INFO 10720 [egg-security] use xframe middleware
+2022-01-13 15:31:51,177 INFO 10720 [egg-security] use dta middleware
+2022-01-13 15:31:51,177 INFO 10720 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 15:31:51,197 INFO 10720 [egg:core] dump config after load, 5ms
+2022-01-13 15:31:51,214 INFO 10720 [egg-watcher:application] watcher start success
+2022-01-13 15:31:51,221 INFO 10720 [egg:core] dump config after ready, 5ms
+2022-01-13 15:31:52,702 INFO 10808 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 15:31:52,738 INFO 10808 [egg-multipart] stream mode enable
+2022-01-13 15:31:52,892 INFO 10808 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 15:31:52,897 INFO 10808 [egg-security] use csrf middleware
+2022-01-13 15:31:52,898 INFO 10808 [egg-security] use methodnoallow middleware
+2022-01-13 15:31:52,899 INFO 10808 [egg-security] use noopen middleware
+2022-01-13 15:31:52,901 INFO 10808 [egg-security] use nosniff middleware
+2022-01-13 15:31:52,902 INFO 10808 [egg-security] use xssProtection middleware
+2022-01-13 15:31:52,903 INFO 10808 [egg-security] use xframe middleware
+2022-01-13 15:31:52,904 INFO 10808 [egg-security] use dta middleware
+2022-01-13 15:31:52,904 INFO 10808 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 15:31:52,916 INFO 10808 [egg:core] dump config after load, 7ms
+2022-01-13 15:31:52,933 INFO 10808 [egg-watcher:application] watcher start success
+2022-01-13 15:31:52,942 INFO 10808 [egg:core] dump config after ready, 8ms
+2022-01-13 15:31:54,184 INFO 7380 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 15:31:54,218 INFO 7380 [egg-multipart] stream mode enable
+2022-01-13 15:31:54,370 INFO 7380 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 15:31:54,374 INFO 7380 [egg-security] use csrf middleware
+2022-01-13 15:31:54,376 INFO 7380 [egg-security] use methodnoallow middleware
+2022-01-13 15:31:54,377 INFO 7380 [egg-security] use noopen middleware
+2022-01-13 15:31:54,379 INFO 7380 [egg-security] use nosniff middleware
+2022-01-13 15:31:54,379 INFO 7380 [egg-security] use xssProtection middleware
+2022-01-13 15:31:54,380 INFO 7380 [egg-security] use xframe middleware
+2022-01-13 15:31:54,381 INFO 7380 [egg-security] use dta middleware
+2022-01-13 15:31:54,381 INFO 7380 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 15:31:54,391 INFO 7380 [egg:core] dump config after load, 4ms
+2022-01-13 15:31:54,402 INFO 7380 [egg-watcher:application] watcher start success
+2022-01-13 15:31:54,411 INFO 7380 [egg:core] dump config after ready, 7ms
+2022-01-13 15:32:04,185 INFO 7380 [egg-view-nunjucks] loading templates from ["D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\app\\view"]
+2022-01-13 15:47:28,077 INFO 5996 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 15:47:28,115 INFO 5996 [egg-multipart] stream mode enable
+2022-01-13 15:47:28,270 INFO 5996 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 15:47:28,275 INFO 5996 [egg-security] use csrf middleware
+2022-01-13 15:47:28,277 INFO 5996 [egg-security] use methodnoallow middleware
+2022-01-13 15:47:28,278 INFO 5996 [egg-security] use noopen middleware
+2022-01-13 15:47:28,280 INFO 5996 [egg-security] use nosniff middleware
+2022-01-13 15:47:28,281 INFO 5996 [egg-security] use xssProtection middleware
+2022-01-13 15:47:28,282 INFO 5996 [egg-security] use xframe middleware
+2022-01-13 15:47:28,282 INFO 5996 [egg-security] use dta middleware
+2022-01-13 15:47:28,282 INFO 5996 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 15:47:28,296 INFO 5996 [egg:core] dump config after load, 7ms
+2022-01-13 15:47:28,308 INFO 5996 [egg-watcher:application] watcher start success
+2022-01-13 15:47:28,318 INFO 5996 [egg:core] dump config after ready, 8ms
+2022-01-13 17:06:53,197 INFO 8996 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:06:53,239 INFO 8996 [egg-multipart] stream mode enable
+2022-01-13 17:06:53,453 INFO 8996 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:06:53,460 INFO 8996 [egg-security] use csrf middleware
+2022-01-13 17:06:53,462 INFO 8996 [egg-security] use methodnoallow middleware
+2022-01-13 17:06:53,464 INFO 8996 [egg-security] use noopen middleware
+2022-01-13 17:06:53,466 INFO 8996 [egg-security] use nosniff middleware
+2022-01-13 17:06:53,467 INFO 8996 [egg-security] use xssProtection middleware
+2022-01-13 17:06:53,468 INFO 8996 [egg-security] use xframe middleware
+2022-01-13 17:06:53,469 INFO 8996 [egg-security] use dta middleware
+2022-01-13 17:06:53,469 INFO 8996 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:06:53,483 INFO 8996 [egg:core] dump config after load, 6ms
+2022-01-13 17:06:53,499 INFO 8996 [egg-watcher:application] watcher start success
+2022-01-13 17:06:53,508 INFO 8996 [egg:core] dump config after ready, 6ms
+2022-01-13 17:06:55,022 INFO 16964 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:06:55,065 INFO 16964 [egg-multipart] stream mode enable
+2022-01-13 17:06:55,242 INFO 16964 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:06:55,247 INFO 16964 [egg-security] use csrf middleware
+2022-01-13 17:06:55,249 INFO 16964 [egg-security] use methodnoallow middleware
+2022-01-13 17:06:55,249 INFO 16964 [egg-security] use noopen middleware
+2022-01-13 17:06:55,251 INFO 16964 [egg-security] use nosniff middleware
+2022-01-13 17:06:55,253 INFO 16964 [egg-security] use xssProtection middleware
+2022-01-13 17:06:55,254 INFO 16964 [egg-security] use xframe middleware
+2022-01-13 17:06:55,255 INFO 16964 [egg-security] use dta middleware
+2022-01-13 17:06:55,255 INFO 16964 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:06:55,265 INFO 16964 [egg:core] dump config after load, 5ms
+2022-01-13 17:06:55,281 INFO 16964 [egg-watcher:application] watcher start success
+2022-01-13 17:06:55,290 INFO 16964 [egg:core] dump config after ready, 7ms
+2022-01-13 17:08:02,586 INFO 7104 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:08:02,623 INFO 7104 [egg-multipart] stream mode enable
+2022-01-13 17:08:02,786 INFO 7104 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:08:02,790 INFO 7104 [egg-security] use csrf middleware
+2022-01-13 17:08:02,793 INFO 7104 [egg-security] use methodnoallow middleware
+2022-01-13 17:08:02,794 INFO 7104 [egg-security] use noopen middleware
+2022-01-13 17:08:02,796 INFO 7104 [egg-security] use nosniff middleware
+2022-01-13 17:08:02,797 INFO 7104 [egg-security] use xssProtection middleware
+2022-01-13 17:08:02,797 INFO 7104 [egg-security] use xframe middleware
+2022-01-13 17:08:02,798 INFO 7104 [egg-security] use dta middleware
+2022-01-13 17:08:02,798 INFO 7104 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:08:02,809 INFO 7104 [egg:core] dump config after load, 7ms
+2022-01-13 17:08:02,821 INFO 7104 [egg-watcher:application] watcher start success
+2022-01-13 17:08:02,832 INFO 7104 [egg:core] dump config after ready, 9ms
+2022-01-13 17:09:22,816 INFO 15788 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:09:22,851 INFO 15788 [egg-multipart] stream mode enable
+2022-01-13 17:09:23,018 INFO 15788 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:09:23,022 INFO 15788 [egg-security] use csrf middleware
+2022-01-13 17:09:23,026 INFO 15788 [egg-security] use methodnoallow middleware
+2022-01-13 17:09:23,027 INFO 15788 [egg-security] use noopen middleware
+2022-01-13 17:09:23,030 INFO 15788 [egg-security] use nosniff middleware
+2022-01-13 17:09:23,031 INFO 15788 [egg-security] use xssProtection middleware
+2022-01-13 17:09:23,032 INFO 15788 [egg-security] use xframe middleware
+2022-01-13 17:09:23,033 INFO 15788 [egg-security] use dta middleware
+2022-01-13 17:09:23,033 INFO 15788 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:09:23,052 INFO 15788 [egg:core] dump config after load, 5ms
+2022-01-13 17:09:23,066 INFO 15788 [egg-watcher:application] watcher start success
+2022-01-13 17:09:23,075 INFO 15788 [egg:core] dump config after ready, 7ms
+2022-01-13 17:09:33,623 ERROR 14404 [-/::1/-/7ms GET /foo] nodejs.ReferenceError: id is not defined
+    at HomeController.foo (D:\learn\lagou\github\node-note\exampels\egg\app\controller\home.js:16:40)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 14404
+hostname: RedmiBook16
+
+2022-01-13 17:09:32,870 INFO 14404 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:09:32,901 INFO 14404 [egg-multipart] stream mode enable
+2022-01-13 17:09:33,064 INFO 14404 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:09:33,068 INFO 14404 [egg-security] use csrf middleware
+2022-01-13 17:09:33,071 INFO 14404 [egg-security] use methodnoallow middleware
+2022-01-13 17:09:33,071 INFO 14404 [egg-security] use noopen middleware
+2022-01-13 17:09:33,073 INFO 14404 [egg-security] use nosniff middleware
+2022-01-13 17:09:33,075 INFO 14404 [egg-security] use xssProtection middleware
+2022-01-13 17:09:33,075 INFO 14404 [egg-security] use xframe middleware
+2022-01-13 17:09:33,076 INFO 14404 [egg-security] use dta middleware
+2022-01-13 17:09:33,076 INFO 14404 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:09:33,094 INFO 14404 [egg:core] dump config after load, 5ms
+2022-01-13 17:09:33,105 INFO 14404 [egg-watcher:application] watcher start success
+2022-01-13 17:09:33,114 INFO 14404 [egg:core] dump config after ready, 7ms
+2022-01-13 17:09:37,700 INFO 26112 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:09:37,734 INFO 26112 [egg-multipart] stream mode enable
+2022-01-13 17:09:37,883 INFO 26112 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:09:37,887 INFO 26112 [egg-security] use csrf middleware
+2022-01-13 17:09:37,889 INFO 26112 [egg-security] use methodnoallow middleware
+2022-01-13 17:09:37,891 INFO 26112 [egg-security] use noopen middleware
+2022-01-13 17:09:37,893 INFO 26112 [egg-security] use nosniff middleware
+2022-01-13 17:09:37,893 INFO 26112 [egg-security] use xssProtection middleware
+2022-01-13 17:09:37,894 INFO 26112 [egg-security] use xframe middleware
+2022-01-13 17:09:37,895 INFO 26112 [egg-security] use dta middleware
+2022-01-13 17:09:37,895 INFO 26112 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:09:37,913 INFO 26112 [egg:core] dump config after load, 5ms
+2022-01-13 17:09:37,924 INFO 26112 [egg-watcher:application] watcher start success
+2022-01-13 17:09:37,932 INFO 26112 [egg:core] dump config after ready, 6ms
+2022-01-13 17:09:54,645 INFO 2864 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:09:54,679 INFO 2864 [egg-multipart] stream mode enable
+2022-01-13 17:09:54,827 INFO 2864 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:09:54,831 INFO 2864 [egg-security] use csrf middleware
+2022-01-13 17:09:54,833 INFO 2864 [egg-security] use methodnoallow middleware
+2022-01-13 17:09:54,834 INFO 2864 [egg-security] use noopen middleware
+2022-01-13 17:09:54,836 INFO 2864 [egg-security] use nosniff middleware
+2022-01-13 17:09:54,837 INFO 2864 [egg-security] use xssProtection middleware
+2022-01-13 17:09:54,838 INFO 2864 [egg-security] use xframe middleware
+2022-01-13 17:09:54,838 INFO 2864 [egg-security] use dta middleware
+2022-01-13 17:09:54,838 INFO 2864 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:09:54,857 INFO 2864 [egg:core] dump config after load, 5ms
+2022-01-13 17:09:54,871 INFO 2864 [egg-watcher:application] watcher start success
+2022-01-13 17:09:54,883 INFO 2864 [egg:core] dump config after ready, 10ms
+2022-01-13 17:27:49,674 INFO 5384 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:27:49,712 INFO 5384 [egg-multipart] stream mode enable
+2022-01-13 17:27:49,865 INFO 5384 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:27:49,870 INFO 5384 [egg-security] use csrf middleware
+2022-01-13 17:27:49,872 INFO 5384 [egg-security] use methodnoallow middleware
+2022-01-13 17:27:49,873 INFO 5384 [egg-security] use noopen middleware
+2022-01-13 17:27:49,875 INFO 5384 [egg-security] use nosniff middleware
+2022-01-13 17:27:49,876 INFO 5384 [egg-security] use xssProtection middleware
+2022-01-13 17:27:49,877 INFO 5384 [egg-security] use xframe middleware
+2022-01-13 17:27:49,878 INFO 5384 [egg-security] use dta middleware
+2022-01-13 17:27:49,879 INFO 5384 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:27:49,889 INFO 5384 [egg:core] dump config after load, 6ms
+2022-01-13 17:27:49,901 INFO 5384 [egg-watcher:application] watcher start success
+2022-01-13 17:27:49,909 INFO 5384 [egg:core] dump config after ready, 7ms
+2022-01-13 17:28:18,687 INFO 3252 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:28:18,726 INFO 3252 [egg-multipart] stream mode enable
+2022-01-13 17:28:18,886 INFO 3252 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:28:18,891 INFO 3252 [egg-security] use csrf middleware
+2022-01-13 17:28:18,893 INFO 3252 [egg-security] use methodnoallow middleware
+2022-01-13 17:28:18,894 INFO 3252 [egg-security] use noopen middleware
+2022-01-13 17:28:18,898 INFO 3252 [egg-security] use nosniff middleware
+2022-01-13 17:28:18,899 INFO 3252 [egg-security] use xssProtection middleware
+2022-01-13 17:28:18,900 INFO 3252 [egg-security] use xframe middleware
+2022-01-13 17:28:18,901 INFO 3252 [egg-security] use dta middleware
+2022-01-13 17:28:18,901 INFO 3252 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:28:18,911 INFO 3252 [egg:core] dump config after load, 5ms
+2022-01-13 17:28:18,925 INFO 3252 [egg-watcher:application] watcher start success
+2022-01-13 17:28:18,933 INFO 3252 [egg:core] dump config after ready, 6ms
+2022-01-13 17:28:51,568 INFO 25184 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:28:51,601 INFO 25184 [egg-multipart] stream mode enable
+2022-01-13 17:28:51,756 INFO 25184 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:28:51,759 INFO 25184 [egg-security] use csrf middleware
+2022-01-13 17:28:51,761 INFO 25184 [egg-security] use methodnoallow middleware
+2022-01-13 17:28:51,763 INFO 25184 [egg-security] use noopen middleware
+2022-01-13 17:28:51,765 INFO 25184 [egg-security] use nosniff middleware
+2022-01-13 17:28:51,766 INFO 25184 [egg-security] use xssProtection middleware
+2022-01-13 17:28:51,767 INFO 25184 [egg-security] use xframe middleware
+2022-01-13 17:28:51,768 INFO 25184 [egg-security] use dta middleware
+2022-01-13 17:28:51,768 INFO 25184 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:28:51,785 INFO 25184 [egg:core] dump config after load, 4ms
+2022-01-13 17:28:51,797 INFO 25184 [egg-watcher:application] watcher start success
+2022-01-13 17:28:51,808 INFO 25184 [egg:core] dump config after ready, 8ms
+2022-01-13 17:28:56,652 ERROR 25184 [-/::1/-/7ms GET /foo] nodejs.SyntaxError: Unexpected token a in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at Helper.formatUser (D:\learn\lagou\github\node-note\exampels\egg\app\extend\helper.js:3:17)
+    at HomeController.foo (D:\learn\lagou\github\node-note\exampels\egg\app\controller\home.js:16:29)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 25184
+hostname: RedmiBook16
+
+2022-01-13 17:29:38,032 INFO 17036 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:29:38,065 INFO 17036 [egg-multipart] stream mode enable
+2022-01-13 17:29:38,225 INFO 17036 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:29:38,236 INFO 17036 [egg-security] use csrf middleware
+2022-01-13 17:29:38,239 INFO 17036 [egg-security] use methodnoallow middleware
+2022-01-13 17:29:38,240 INFO 17036 [egg-security] use noopen middleware
+2022-01-13 17:29:38,243 INFO 17036 [egg-security] use nosniff middleware
+2022-01-13 17:29:38,243 INFO 17036 [egg-security] use xssProtection middleware
+2022-01-13 17:29:38,244 INFO 17036 [egg-security] use xframe middleware
+2022-01-13 17:29:38,245 INFO 17036 [egg-security] use dta middleware
+2022-01-13 17:29:38,245 INFO 17036 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:29:38,258 INFO 17036 [egg:core] dump config after load, 5ms
+2022-01-13 17:29:38,282 INFO 17036 [egg-watcher:application] watcher start success
+2022-01-13 17:29:38,317 INFO 17036 [egg:core] dump config after ready, 15ms
+2022-01-13 17:29:50,196 INFO 22300 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:29:50,232 INFO 22300 [egg-multipart] stream mode enable
+2022-01-13 17:29:50,395 INFO 22300 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:29:50,398 INFO 22300 [egg-security] use csrf middleware
+2022-01-13 17:29:50,401 INFO 22300 [egg-security] use methodnoallow middleware
+2022-01-13 17:29:50,402 INFO 22300 [egg-security] use noopen middleware
+2022-01-13 17:29:50,404 INFO 22300 [egg-security] use nosniff middleware
+2022-01-13 17:29:50,405 INFO 22300 [egg-security] use xssProtection middleware
+2022-01-13 17:29:50,406 INFO 22300 [egg-security] use xframe middleware
+2022-01-13 17:29:50,407 INFO 22300 [egg-security] use dta middleware
+2022-01-13 17:29:50,407 INFO 22300 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:29:50,424 INFO 22300 [egg:core] dump config after load, 4ms
+2022-01-13 17:29:50,437 INFO 22300 [egg-watcher:application] watcher start success
+2022-01-13 17:29:50,444 INFO 22300 [egg:core] dump config after ready, 5ms
+2022-01-13 17:30:13,103 INFO 24276 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:30:13,137 INFO 24276 [egg-multipart] stream mode enable
+2022-01-13 17:30:13,294 INFO 24276 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:30:13,298 INFO 24276 [egg-security] use csrf middleware
+2022-01-13 17:30:13,301 INFO 24276 [egg-security] use methodnoallow middleware
+2022-01-13 17:30:13,302 INFO 24276 [egg-security] use noopen middleware
+2022-01-13 17:30:13,304 INFO 24276 [egg-security] use nosniff middleware
+2022-01-13 17:30:13,305 INFO 24276 [egg-security] use xssProtection middleware
+2022-01-13 17:30:13,305 INFO 24276 [egg-security] use xframe middleware
+2022-01-13 17:30:13,306 INFO 24276 [egg-security] use dta middleware
+2022-01-13 17:30:13,306 INFO 24276 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:30:13,324 INFO 24276 [egg:core] dump config after load, 5ms
+2022-01-13 17:30:13,336 INFO 24276 [egg-watcher:application] watcher start success
+2022-01-13 17:30:13,342 INFO 24276 [egg:core] dump config after ready, 5ms
+2022-01-13 17:30:22,029 INFO 17820 [egg:logger] init all loggers with options: {"dir":"D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-01-13 17:30:22,060 INFO 17820 [egg-multipart] stream mode enable
+2022-01-13 17:30:22,208 INFO 17820 [egg-static] starting static serve /public/ -> D:\learn\lagou\github\node-note\exampels\egg\app\public
+2022-01-13 17:30:22,213 INFO 17820 [egg-security] use csrf middleware
+2022-01-13 17:30:22,215 INFO 17820 [egg-security] use methodnoallow middleware
+2022-01-13 17:30:22,216 INFO 17820 [egg-security] use noopen middleware
+2022-01-13 17:30:22,217 INFO 17820 [egg-security] use nosniff middleware
+2022-01-13 17:30:22,218 INFO 17820 [egg-security] use xssProtection middleware
+2022-01-13 17:30:22,219 INFO 17820 [egg-security] use xframe middleware
+2022-01-13 17:30:22,219 INFO 17820 [egg-security] use dta middleware
+2022-01-13 17:30:22,219 INFO 17820 [egg-security] compose 7 middlewares into one security middleware
+2022-01-13 17:30:22,238 INFO 17820 [egg:core] dump config after load, 5ms
+2022-01-13 17:30:22,249 INFO 17820 [egg-watcher:application] watcher start success
+2022-01-13 17:30:22,256 INFO 17820 [egg:core] dump config after ready, 5ms

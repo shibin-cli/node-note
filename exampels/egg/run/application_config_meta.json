@@ -1,0 +1,278 @@
+{
+  "keys": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\config\\config.default.js",
+  "view": {
+    "defaultViewEngine": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\config\\config.default.js",
+    "root": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view@2.1.3\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view@2.1.3\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view@2.1.3\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view@2.1.3\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-session@3.3.0\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "type": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-security@2.9.0\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-jsonp@2.0.0\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-onerror@2.1.0\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-onerror@2.1.0\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-onerror@2.1.0\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-i18n@2.1.1\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-watcher@3.1.1\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-schedule@3.6.6\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-schedule@3.6.6\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-schedule@3.6.6\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-multipart@2.13.1\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-development@2.7.0\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-logrotator@3.1.0\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-static@2.2.0\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-static@2.2.0\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-static@2.2.0\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-static@2.2.0\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-static@2.2.0\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-static@2.2.0\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view-nunjucks@2.3.0\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view-nunjucks@2.3.0\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view-nunjucks@2.3.0\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view-nunjucks@2.3.0\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg-view-nunjucks@2.3.0\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "keywords": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "enablePerformanceTimer": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\learn\\lagou\\github\\node-note\\exampels\\egg\\node_modules\\.pnpm\\registry.npmmirror.com+egg@2.33.1\\node_modules\\egg\\config\\config.default.js"
+}

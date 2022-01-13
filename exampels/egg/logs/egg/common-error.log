@@ -1,0 +1,69 @@
+2022-01-13 11:25:38,694 ERROR 18160 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\app\extend\context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-session@6.2.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+
+pid: 18160
+hostname: RedmiBook16
+
+2022-01-13 11:26:52,955 ERROR 4004 [-/127.0.0.1/-/4ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg@2.33.1\node_modules\egg\app\extend\context.js:23:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-security@2.9.0\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-session@6.2.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+
+pid: 4004
+hostname: RedmiBook16
+
+2022-01-13 17:06:55,121 ERROR 11084 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11084
+hostname: RedmiBook16
+
+2022-01-13 17:09:33,620 ERROR 14404 [-/::1/-/7ms GET /foo] nodejs.ReferenceError: id is not defined
+    at HomeController.foo (D:\learn\lagou\github\node-note\exampels\egg\app\controller\home.js:16:40)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 14404
+hostname: RedmiBook16
+
+2022-01-13 17:28:56,649 ERROR 25184 [-/::1/-/7ms GET /foo] nodejs.SyntaxError: Unexpected token a in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at Helper.formatUser (D:\learn\lagou\github\node-note\exampels\egg\app\extend\helper.js:3:17)
+    at HomeController.foo (D:\learn\lagou\github\node-note\exampels\egg\app\controller\home.js:16:29)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+egg-core@4.22.0\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at D:\learn\lagou\github\node-note\exampels\egg\node_modules\.pnpm\registry.npmmirror.com+@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 25184
+hostname: RedmiBook16
+
