@@ -613,7 +613,7 @@ const resolveCwd = require('resolve-cwd');
 ...
 const localFile = resolveCwd.silent(path.join(pkg.name, relativePath));
 ```
-resolve-cwd 的源码很简单，就调用了[resolve-from]()的方法
+resolve-cwd 的源码很简单，就调用了 `resolve-from` 的方法
 ```js
 
 const resolveFrom = require('resolve-from');
