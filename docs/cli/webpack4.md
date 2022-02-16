@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Webpack4
 ## 模块打包工具的由来
 * ES Modules存在环境兼容问题
